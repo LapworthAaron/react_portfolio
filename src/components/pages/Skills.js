@@ -17,39 +17,39 @@ function Skills() {
         <Accordion.Item eventKey="1">
             <Accordion.Header>Skills</Accordion.Header>
             <Accordion.Body>
-                <div class="container skills_container">
-                    <div class="row">
-                        <ul class="skills_list col-lg-4">
-                            <li><span class="badge badge-primary">Experienced</span>SQL</li>
-                            <li><span class="badge badge-primary">Experienced</span>Bigquery</li>
-                            <li><span class="badge badge-warning">Rusty</span>SAS</li>
-                            <li><span class="badge badge-warning">Rusty</span>Python</li>
-                            <li><span class="badge badge-warning">Rusty</span>PySpark</li>
-                            <li><span class="badge badge-primary">Experienced</span>Excel</li>
-                            <li><span class="badge badge-primary">Experienced</span>Tableau</li>
-                            <li><span class="badge badge-primary">Experienced</span>People Management</li>
-                            <li><span class="badge badge-primary">Experienced</span>Presenting</li>
+                <div className="container skills_container">
+                    <div className="row">
+                        <ul className="skills_list col-lg-4">
+                            <li><span className="badge badge-primary">Experienced</span>SQL</li>
+                            <li><span className="badge badge-primary">Experienced</span>Bigquery</li>
+                            <li><span className="badge badge-warning">Rusty</span>SAS</li>
+                            <li><span className="badge badge-warning">Rusty</span>Python</li>
+                            <li><span className="badge badge-warning">Rusty</span>PySpark</li>
+                            <li><span className="badge badge-primary">Experienced</span>Excel</li>
+                            <li><span className="badge badge-primary">Experienced</span>Tableau</li>
+                            <li><span className="badge badge-primary">Experienced</span>People Management</li>
+                            <li><span className="badge badge-primary">Experienced</span>Presenting</li>
                         </ul>
-                        <ul class="skills_list col-lg-4">
-                            <li><span class="badge badge-success">New</span>HTML</li>
-                            <li><span class="badge badge-success">New</span>CSS</li>
-                            <li><span class="badge badge-success">New</span>Bootstrap</li>
-                            <li><span class="badge badge-success">New</span>Javascript</li>
-                            <li><span class="badge badge-success">New</span>Node.js</li>
-                            <li><span class="badge badge-danger">Not learnt yet</span>React</li>
-                            <li><span class="badge badge-primary">Experienced</span>Git/Github</li>
-                            <li><span class="badge badge-success">New</span>JQuery</li>
-                            <li><span class="badge badge-success">New</span>ES6</li>
+                        <ul className="skills_list col-lg-4">
+                            <li><span className="badge badge-success">New</span>HTML</li>
+                            <li><span className="badge badge-success">New</span>CSS</li>
+                            <li><span className="badge badge-success">New</span>Bootstrap</li>
+                            <li><span className="badge badge-success">New</span>Javascript</li>
+                            <li><span className="badge badge-success">New</span>Node.js</li>
+                            <li><span className="badge badge-success">Newt</span>React</li>
+                            <li><span className="badge badge-primary">Experienced</span>Git/Github</li>
+                            <li><span className="badge badge-success">New</span>JQuery</li>
+                            <li><span className="badge badge-success">New</span>ES6</li>
                         </ul>
-                        <ul class="skills_list col-lg-4">
-                            <li><span class="badge badge-success">New</span>moment.js</li>
-                            <li><span class="badge badge-success">New</span>AJAX</li>
-                            <li><span class="badge badge-success">New</span>UX</li>
-                            <li><span class="badge badge-success">Experienced</span>JSON</li>
-                            <li><span class="badge badge-success">New</span>Test-driven development</li>
-                            <li><span class="badge badge-success">New</span>OOP</li>
-                            <li><span class="badge badge-success">New</span>Behaviour-driven development</li>
-                            <li><span class="badge badge-danger">Not learnt yet</span>Deployment</li>
+                        <ul className="skills_list col-lg-4">
+                            <li><span className="badge badge-success">New</span>moment.js</li>
+                            <li><span className="badge badge-success">New</span>AJAX</li>
+                            <li><span className="badge badge-success">New</span>UX</li>
+                            <li><span className="badge badge-success">Experienced</span>JSON</li>
+                            <li><span className="badge badge-success">New</span>Test-driven development</li>
+                            <li><span className="badge badge-success">New</span>OOP</li>
+                            <li><span className="badge badge-success">New</span>Behaviour-driven development</li>
+                            <li><span className="badge badge-danger">Not learnt yet</span>Deployment</li>
                         </ul>
                     </div>
                 </div>
