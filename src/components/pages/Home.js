@@ -1,11 +1,10 @@
 import React from "react";
-import image1 from '../../assets/images/picofme_transparent.png';
 
 function Home() {
     return (
         <div>
             <div className="transparent_bg">
-                <img className="" src={image1} alt="aaron lapworth" width="250px" />
+                <img className="" src={require("../../assets/images/picofme_transparent.png")} alt="aaron lapworth" width="250px" />
                 <div className="">
                     <h1 className="">Web Developer in training</h1>
                     <p className="">I'm currently studying on a 4 month Front End web development Bootcamp</p>

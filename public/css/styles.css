@@ -1,0 +1,53 @@
+/* variables */
+:root {
+	--bg_color: #90E0EF;
+    --text_color: white;
+    --blue_text: #03045E;
+    --mid_blue: #0077B6;
+    --light_blue: #00B4D8;
+}
+
+body {
+    background-color: var(--bg_color);
+}
+
+
+.cards {
+    text-decoration: none;
+}
+
+.cardContainer {
+    padding: 0 !important;
+}
+
+.card {
+    border-radius: 5px;
+    /* margin: 0 1rem 1rem 0; */
+}
+
+.card:hover {
+    box-shadow: inset 0px 0px 0px 
+			var(--mid_blue), 0 0 15px 
+			var(--mid_blue);
+}
+
+.cardContent {
+    border-radius: 5px;
+    background-color: rgba(255,255,255,0.9) !important;
+    padding: 5px;
+    color: var(--blue_text);
+    font-size: 18px;
+}
+
+.contentText {
+    font-size: 12px;
+}
+
+.cardLink {
+    text-decoration: none;
+    
+}
+
+.cardLink:hover {
+    text-decoration: none;
+}
