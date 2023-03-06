@@ -3,7 +3,7 @@ import Accordion from 'react-bootstrap/Accordion'
 
 function Skills() {
   return (
-    <Accordion defaultActiveKey="0" id="accordionExample">
+    <Accordion defaultActiveKey="0" id="accordionGroups">
         <Accordion.Item eventKey="0">
             <Accordion.Header>Front End Web Dev Bootcamp</Accordion.Header>
             <Accordion.Body>
@@ -17,9 +17,9 @@ function Skills() {
         <Accordion.Item eventKey="1">
             <Accordion.Header>Skills</Accordion.Header>
             <Accordion.Body>
-                <div className="container skills_container">
-                    <div className="row">
-                        <ul className="skills_list col-lg-4">
+                <div fluid className="container skills_container">
+                    <div className="row skills_ul">
+                        <ul className="skills_list col-lg-4 col-md-6">
                             <li><span className="badge badge-primary">Experienced</span>SQL</li>
                             <li><span className="badge badge-primary">Experienced</span>Bigquery</li>
                             <li><span className="badge badge-warning">Rusty</span>SAS</li>
@@ -30,18 +30,18 @@ function Skills() {
                             <li><span className="badge badge-primary">Experienced</span>People Management</li>
                             <li><span className="badge badge-primary">Experienced</span>Presenting</li>
                         </ul>
-                        <ul className="skills_list col-lg-4">
+                        <ul className="skills_list col-lg-4 col-md-6">
                             <li><span className="badge badge-success">New</span>HTML</li>
                             <li><span className="badge badge-success">New</span>CSS</li>
                             <li><span className="badge badge-success">New</span>Bootstrap</li>
                             <li><span className="badge badge-success">New</span>Javascript</li>
                             <li><span className="badge badge-success">New</span>Node.js</li>
-                            <li><span className="badge badge-success">Newt</span>React</li>
+                            <li><span className="badge badge-success">New</span>React</li>
                             <li><span className="badge badge-primary">Experienced</span>Git/Github</li>
                             <li><span className="badge badge-success">New</span>JQuery</li>
                             <li><span className="badge badge-success">New</span>ES6</li>
                         </ul>
-                        <ul className="skills_list col-lg-4">
+                        <ul className="skills_list col-lg-4 col-md-6">
                             <li><span className="badge badge-success">New</span>moment.js</li>
                             <li><span className="badge badge-success">New</span>AJAX</li>
                             <li><span className="badge badge-success">New</span>UX</li>

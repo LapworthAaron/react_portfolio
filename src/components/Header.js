@@ -6,35 +6,45 @@ function Header() {
 
         <ul className="nav nav-tabs">
             <li className="nav-item">
-            <NavLink
-                to="/"
-                end
-                className={({ isActive }) =>
-                isActive ? 'nav-link active' : 'nav-link'
-                }
-            >
-                Home
-            </NavLink>
+                <NavLink
+                    to="/"
+                    end
+                    className={({ isActive }) =>
+                    isActive ? 'nav-link active' : 'nav-link'
+                    }
+                >
+                    Home
+                </NavLink>
             </li>
             <li className="nav-item">
-            <NavLink
-                to="progGallery"
-                className={({ isActive }) =>
-                isActive ? 'nav-link active' : 'nav-link'
-                }
-            >
-                Project Gallery
-            </NavLink>
+                <NavLink
+                    to="progGallery"
+                    className={({ isActive }) =>
+                    isActive ? 'nav-link active' : 'nav-link'
+                    }
+                >
+                    Project Gallery
+                </NavLink>
             </li>
             <li className="nav-item">
-            <NavLink
-                to="skills"
-                className={({ isActive }) =>
-                isActive ? 'nav-link active' : 'nav-link'
-                }
-            >
-                Skills
-            </NavLink>
+                <NavLink
+                    to="skills"
+                    className={({ isActive }) =>
+                    isActive ? 'nav-link active' : 'nav-link'
+                    }
+                >
+                    Skills
+                </NavLink>
+            </li>
+            <li className="nav-item">
+                <NavLink
+                    to="contact"
+                    className={({ isActive }) =>
+                    isActive ? 'nav-link active' : 'nav-link'
+                    }
+                >
+                    Contact
+                </NavLink>
             </li>
         </ul>
     );

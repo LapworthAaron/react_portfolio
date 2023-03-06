@@ -3,66 +3,77 @@
         "link": "https://github.com/LapworthAaron/readme_generator",
         "image": "/images/readme_generator.png",
         "title": "Readme Generator",
-        "text": "A node.js application to generate Readmes"
+        "text": "A node.js application to generate Readmes",
+        "github": "https://github.com/LapworthAaron/readme_generator"
     },
     {
         "link": "https://lapworthaaron.github.io/Football_stats/",
         "image": "/images/football_stats.png",
         "title": "Football Stats site",
-        "text": "A group project using a football api"
+        "text": "A group project using a football api",
+        "github": "https://github.com/LapworthAaron/Football_stats"
     },
     {
         "link": "https://lapworthaaron.github.io/weather_dashboard/",
         "image": "/images/weather_api.png",
         "title": "Weather API site",
-        "text": "A site to pull data from a weather api and display"
+        "text": "A site to pull data from a weather api and display",
+        "github": "https://github.com/LapworthAaron/weather_dashboard"
     },
     {
         "link": "https://lapworthaaron.github.io/daily_planner",
         "image": "/images/daily_planner.png",
         "title": "Daily Planner",
-        "text": "A node.js application to generate Readmes"
+        "text": "A node.js application to generate Readmes",
+        "github": "https://github.com/LapworthAaron/daily_planner"
     },
     {
         "link": "https://lapworthaaron.github.io/js_quiz",
         "image": "/images/js_quiz.png",
         "title": "JS Quiz",
-        "text": "A site using JS to create a quiz and store highscores"
+        "text": "A site using JS to create a quiz and store highscores",
+        "github": "https://github.com/LapworthAaron/js_quiz"
     },
     {
         "link": "https://lapworthaaron.github.io/memory_game",
         "image": "/images/memory_tile.png",
         "title": "Memory Tile",
-        "text": "A site with a memory tile game"
+        "text": "A site with a memory tile game",
+        "github": "https://github.com/LapworthAaron/memory_game"
     },
     {
         "link": "https://lapworthaaron.github.io/puzzle_generator",
         "image": "/images/puzzle.png",
         "title": "Puzzle Game",
-        "text": "A site with a puzzle game"
+        "text": "A site with a puzzle game",
+        "github": "https://github.com/LapworthAaron/puzzle_generator"
     },
     {
         "link": "https://lapworthaaron.github.io/proj_Colour_randomiser",
         "image": "/images/colour_picker.png",
         "title": "Colour Picker",
-        "text": "A site creating random colours"
+        "text": "A site creating random colours",
+        "github": "https://github.com/LapworthAaron/proj_Colour_randomiser"
     },
     {
         "link": "https://lapworthaaron.github.io/bootstrap_portfolio_week3_challenge",
         "image": "/images/bs_portfolio.png",
-        "title": "BS portfolio",
-        "text": "A portfolio built using Bootstrap"
+        "title": "Bootstrap portfolio",
+        "text": "A portfolio built using Bootstrap",
+        "github": "https://github.com/LapworthAaron/bootstrap_portfolio_week3_challenge"
     },
     {
         "link": "https://lapworthaaron.github.io/coded_portfolio_week2_challenge",
         "image": "/images/coded_portfolio.png",
-        "title": "Readme portfolio",
-        "text": "A portfolio I built myself"
+        "title": "Coded portfolio",
+        "text": "A portfolio I built myself",
+        "github": "https://github.com/LapworthAaron/coded_portfolio_week2_challenge"
     },
     {
         "link": "https://lapworthaaron.github.io/css_cheatsheet",
         "image": "/images/css_cheatsheet.png",
         "title": "CSS Cheatsheet",
-        "text": "A cheatsheet combining learnings"
+        "text": "A cheatsheet combining learnings",
+        "github": "https://github.com/LapworthAaron/css_cheatsheet"
     }
 ]

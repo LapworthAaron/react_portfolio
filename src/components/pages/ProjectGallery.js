@@ -5,8 +5,8 @@ import projJSON from '../../assets/json/project.json';
 
 function ProjectGallery() {
     return (
-        <section>
-            <Container className="cardContainer">
+        <section className="projectGallery">
+            <Container fluid className="cardContainer">
                 <Row>
                     {projJSON.map(item => (
                         <Project 
@@ -14,6 +14,7 @@ function ProjectGallery() {
                             image = {item.image}
                             title = {item.title}
                             text = {item.text}
+                            github = {item.github}
                             key = {item.title}
                         />
                     ))}

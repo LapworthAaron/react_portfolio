@@ -4,6 +4,7 @@ import Header from './components/Header';
 import Home from './components/pages/Home';
 import ProjectGallery from './components/pages/ProjectGallery';
 import Skills from './components/pages/Skills';
+import Contact from './components/pages/Contact';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="progGallery" element={<ProjectGallery />} />
           <Route path="skills" element={<Skills />} />
+          <Route path="contact" element={<Contact />} />
         </Routes>
       </div>
     </Router>
