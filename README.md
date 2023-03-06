@@ -1,70 +1,118 @@
-# Getting Started with Create React App
+# react_portfolio
+Week 13 assignment - portfolio created using React Router
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Description
+![Team profile node Screenshot](./public/images/screenshotgif.gif)
 
-## Available Scripts
+The task was to develop the initial scaffolding for your first portfolio site, as well as create or update other materials so that you can showcase your skills to potential employers.
 
-In the project directory, you can run:
+Remember, "good" design is subjective. Your site should look "polished" and "professional." Here are a few guidelines on what that means:
+* Use mobile-first design.
+* Choose a color palette for your site so it doesn't just look like the default bootstrap theme or an unstyled HTML site.
+* Make sure the font size is large enough to read and that the colors don't cause eye strain.
 
-### `npm start`
+Base Requirements
+Your portfolio must meet the following requirements:
+* The following technologies must be used:
+    * React
+    * Navigation using React Router, dynamic rendering, or another third part router
+* Your portfolio must contain the following information:
+    * Your name
+    * Links to your:
+    * GitHub profile
+    * LinkedIn page
+    * Email address
+    * Phone number (optional)
+    * CV (in PDF format)
+     * Your CV must contain up-to-date projects and professional experience
+    * A list of projects (Challenges or Projects). For each project, make sure you have the following:
+        * Project title
+        * Link to the deployed version
+        * Link to the GitHub repository
+        * GIF or screenshot of the deployed application
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Required Components
+At a minimum, your portfolio must render these 6 components:
+* App
+* Header
+* Home page
+* Projects page
+* Project (on Projects page)
+* Contact page
+* Component Content and Requirements
+Each of the following components must follow these guidelines:
+* App:
+    * Must be your top-level component and render all necessary child components
+    * Header:
+    * Must be rendered across every page component of the site
+    * Must contain a Navbar
+* Home page:
+    * This should be a welcome landing page that contains:
+    * Your Name
+    * A headshot of you (or an avatar)
+    * Your brand statement
+    * Some indication that this is your portfolio site
+* Projects page:
+    * Must render six instances of the Project component dynamically
+    * Be sure to store your project details data in a JSON file and import it into your project
+* Project:
+    * Must be a reusable component that ingests JSON data as props and renders a single instance for each project
+    * Must utilize Router props to properly render the right project based on user selection
+    * Must render the following info:
+    * Project title
+    * Link to the deployed version
+    * Link to the GitHub repository
+    * GIF or screenshot of the deployed application
+* Contact page:
+    * Must include contact information:
+    * Email address
+    * Link to a PDF version of your CV
+    * Link to your GitHub profile
+    * Link to your LinkedIn page
+    * Must have a contact form for handling events
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Website: https://lapworthaaron.github.io/react_portfolio
+<br>Repository: https://github.com/LapworthAaron/react_portfolio
 
-### `npm test`
+In this project I have learnt how to use React.js, inparticular React Router.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Table of Contents (Optional)
 
-### `npm run build`
+- [Installation](#installation)
+- [Credits](#credits)
+- [License](#license)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Installation
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Install folder structure as is, into a root directory.
+Then follow the install requirements in the package.json `npm install`
+If you don't want to use `npm install` then run the following for individual packages:
+* you will need to install react-bootstrap using npm `npm install react-bootstrap`
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Credits
 
-### `npm run eject`
+© 2023 Aaron Lapworth. Confidential and Proprietary. All Rights Reserved.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## License
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+MIT License
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Copyright (c) 2023 Aaron Lapworth
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
 
-## Learn More
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
